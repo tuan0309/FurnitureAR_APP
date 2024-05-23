@@ -26,7 +26,6 @@ public class DataHandler : MonoBehaviour
             }
             return instance;
         }
-
     }
     private async void Start()
     {
@@ -47,6 +46,7 @@ public class DataHandler : MonoBehaviour
         }
         buttonContainer.GetComponent<UIContentFitter>().Fit();
     }
+
     public void SetFurniture(int id)
     {
         if (id >= 0 && id < _items.Count)

@@ -35,6 +35,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Furnitures
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7801a14bed6146408be81d4664794b0
+    m_Address: Assets/Addressable/Item/Item1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f94a35fad3aaa1d47b3312eac1bbe93b, type: 2}
   m_SchemaSet:
