@@ -30,6 +30,7 @@ public class InputManager : MonoBehaviour
 
                 var placementObject = Instantiate(DataHandler.Instance.GetFurniture(), pose.position, pose.rotation);
                 var anchor = new GameObject("PlacementAnchor").transform;
+                
                 anchor.position = pose.position;
                 anchor.rotation = pose.rotation;
                 placementObject.transform.parent = anchor;

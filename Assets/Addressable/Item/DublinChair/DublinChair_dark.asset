@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e627c6377f5259b488c7ccb9e05d3f81, type: 3}
+  m_Name: DublinChair_dark
+  m_EditorClassIdentifier: 
+  price: 100
+  itemPrefab: {fileID: 2108499854548136725, guid: 8012f9c437de4c945b4e459d2c53e341, type: 3}
+  itemImage: {fileID: 21300000, guid: ca2f1666746df1346a4c9899f9640a26, type: 3}

@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: c0c8c7ca58303e740bac626cfaf072b0
   m_currentHash:
     serializedVersion: 2
-    Hash: 149f4938edff3586edf614630d98cbcb
+    Hash: d665320580a87f7f3b2cb067485b1778
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -89,6 +89,8 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - Furnitures
+    - Sofa
+    - DublinChair
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: e581d7c606420dd43b26c958ee66ecd1, type: 2}

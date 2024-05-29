@@ -41,6 +41,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - default
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4479b8e2cae1294b82dadfaa56f99f9
+    m_Address: Assets/Addressable/Item/Sofa/Chair1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DublinChair
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 230f6995df4287d4ea23fff52ec28065
+    m_Address: Assets/Addressable/Item/Sofa/Chair2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DublinChair
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f94a35fad3aaa1d47b3312eac1bbe93b, type: 2}
   m_SchemaSet:
