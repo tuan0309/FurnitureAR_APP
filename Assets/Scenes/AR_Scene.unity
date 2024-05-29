@@ -677,7 +677,7 @@ MonoBehaviour:
   buttonPrefab: {fileID: 5679539879697197355, guid: c29462d1ccc37994ea81eab36f8e4431, type: 3}
   buttonContainer: {fileID: 1438442337}
   _items: []
-  label: DublinChair
+  label: Chair
 --- !u!4 &1328869212
 Transform:
   m_ObjectHideFlags: 0

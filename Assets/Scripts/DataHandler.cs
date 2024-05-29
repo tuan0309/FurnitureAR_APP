@@ -1,8 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.UI;
 
 public class DataHandler : MonoBehaviour
 {
@@ -11,8 +11,7 @@ public class DataHandler : MonoBehaviour
     [SerializeField] private ButtonManager buttonPrefab;
     [SerializeField] private GameObject buttonContainer;
     [SerializeField] private List<Item> _items;
-    [SerializeField] private string label;
-
+    
     private int id = 0;
 
     private static DataHandler instance;
@@ -27,13 +26,14 @@ public class DataHandler : MonoBehaviour
             return instance;
         }
     }
+
     private async void Start()
     {
         _items = new List<Item>();
+        string label = LabelManager.Instance.label; // Lấy label từ LabelManager
         await Get(label);
         CreateButtons();
     }
-
 
     void CreateButtons()
     {
