@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DataHandler : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class DataHandler : MonoBehaviour
     [SerializeField] private ButtonManager buttonPrefab;
     [SerializeField] private GameObject buttonContainer;
     [SerializeField] private List<Item> _items;
-    
+    [SerializeField] private Button addButton;
+
+
     private int id = 0;
 
     private static DataHandler instance;
@@ -33,6 +36,8 @@ public class DataHandler : MonoBehaviour
         string label = LabelManager.Instance.label; // Lấy label từ LabelManager
         await Get(label);
         CreateButtons();
+
+        addButton.onClick.AddListener(OnAddButtonClicked);
     }
 
     void CreateButtons()
@@ -52,6 +57,9 @@ public class DataHandler : MonoBehaviour
         if (id >= 0 && id < _items.Count)
         {
             furniture = _items[id].itemPrefab;
+            LabelManager.Instance.itemName = _items[id].itemName;
+            LabelManager.Instance.price = _items[id].price;
+            LabelManager.Instance.itemImage = _items[id].itemImage;
         }
         else
         {
@@ -72,5 +80,9 @@ public class DataHandler : MonoBehaviour
             var obj = await Addressables.LoadAssetAsync<Item>(location).Task;
             _items.Add(obj);
         }
+    }
+    private void OnAddButtonClicked()
+    {
+        SceneManager.LoadScene("Cart_Scene");
     }
 }

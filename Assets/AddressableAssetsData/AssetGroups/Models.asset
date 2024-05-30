@@ -20,14 +20,12 @@ MonoBehaviour:
   - m_GUID: 90149218609089d4cb2c2d2e3410c2d8
     m_Address: Assets/Addressable/Item/Light Brown Sofa.asset
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3198e08eb859ac44a037d44ecafef94
     m_Address: Assets/Addressable/Item/Brown Sofa.asset
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c217a9902c387f141ba2d274f1918df9
     m_Address: Assets/Addressable/Item/White Sofa.asset
@@ -52,6 +50,36 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Chair
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11ec91745a682d94dae9948372bc899b
+    m_Address: Assets/Addressable/Item/Sofa/Red Sofa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 419b9c848b05ee945ac2a42689f6433f
+    m_Address: Assets/Addressable/Item/Sofa/Black Sofa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70dbc6f19f88e4149bd10863f2de40e7
+    m_Address: Assets/Addressable/Item/OfficeChair/OfficeChair_white.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OfficeChair
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed1904008f8ebc9418e98d6812694f34
+    m_Address: Assets/Addressable/Item/OfficeChair/OfficeChair_red.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OfficeChair
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1495bf63c97a68d4d8b4176697f7874f
+    m_Address: Assets/Addressable/Item/OfficeChair/OfficeChair_black.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OfficeChair
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f94a35fad3aaa1d47b3312eac1bbe93b, type: 2}

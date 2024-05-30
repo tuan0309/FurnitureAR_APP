@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e627c6377f5259b488c7ccb9e05d3f81, type: 3}
   m_Name: DublinChair_dark
   m_EditorClassIdentifier: 
+  itemName: Dublin Chair
   price: 100
   itemPrefab: {fileID: 2108499854548136725, guid: 8012f9c437de4c945b4e459d2c53e341, type: 3}
   itemImage: {fileID: 21300000, guid: be5433b41c31dbf4592ccc28d2624ffd, type: 3}

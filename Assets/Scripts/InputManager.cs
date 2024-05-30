@@ -76,10 +76,10 @@ public class InputManager : MonoBehaviour
             crosshair.transform.position = pose.position;
             crosshair.transform.eulerAngles = new Vector3(90, 0, 0);
         }
-        else if (Physics.Raycast(ray, out hit))
-        {
-            crosshair.transform.position = hit.point;
-            crosshair.transform.up = hit.normal;
-        }
+        // else if (Physics.Raycast(ray, out hit))
+        // {
+        //     crosshair.transform.position = hit.point;
+        //     crosshair.transform.up = hit.normal;
+        // }
     }
 }

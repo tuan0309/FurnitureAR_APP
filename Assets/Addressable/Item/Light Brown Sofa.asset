@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e627c6377f5259b488c7ccb9e05d3f81, type: 3}
   m_Name: Light Brown Sofa
   m_EditorClassIdentifier: 
-  price: 300
+  price: 200
   itemPrefab: {fileID: 8160728474001295249, guid: 5a8e5eecf9c675847899a7b354e3db7c, type: 3}
   itemImage: {fileID: 21300000, guid: c459377d22b4bed418e213173161a3dd, type: 3}

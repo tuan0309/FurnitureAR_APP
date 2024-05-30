@@ -14,4 +14,10 @@ public class ButtonHandler : MonoBehaviour
         LabelManager.Instance.label = "Furnitures";
         SceneManager.LoadScene("AR_Scene");
     }
+
+    public void OnOfficeChairButtonClicked()
+    {
+        LabelManager.Instance.label = "OfficeChair";
+        SceneManager.LoadScene("AR_Scene");
+    }
 }

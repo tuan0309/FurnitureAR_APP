@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: c0c8c7ca58303e740bac626cfaf072b0
   m_currentHash:
     serializedVersion: 2
-    Hash: 55c91d2d82b54e2fe166822ebd5d1eea
+    Hash: 25d3edcaa852c49052292b549279e52a
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -91,6 +91,7 @@ MonoBehaviour:
     - Furnitures
     - Sofa
     - Chair
+    - OfficeChair
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: e581d7c606420dd43b26c958ee66ecd1, type: 2}

@@ -17,8 +17,10 @@ public class LabelManager : MonoBehaviour
         }
     }
 
+    public string itemName;
     public string label;
-
+    public float price;
+    public Sprite itemImage;
     private void Awake()
     {
         if (instance == null)
