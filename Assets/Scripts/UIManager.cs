@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+
 public class UIManager : MonoBehaviour
 {
     private GraphicRaycaster raycaster;
     private PointerEventData pData;
     private EventSystem eventSystem;
-
     public Transform selectionPoint;
     private static UIManager instance;
     public static UIManager Instance
@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
         }
 
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,7 @@ public class UIManager : MonoBehaviour
     {
 
     }
+
     public bool OnEntered(GameObject button)
     {
         //Create a list of Raycast Results

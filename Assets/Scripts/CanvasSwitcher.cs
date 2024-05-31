@@ -9,17 +9,14 @@ public class CanvasSwitcher : MonoBehaviour
 
     void Start()
     {
-        // Đảm bảo canvas1 được hiển thị và canvas2 bị ẩn khi bắt đầu
         canvas1.gameObject.SetActive(true);
         canvas2.gameObject.SetActive(false);
 
-        // Thêm sự kiện khi nút được nhấn
         switchButton.onClick.AddListener(SwitchCanvas);
     }
 
     void SwitchCanvas()
     {
-        // Ẩn canvas1 và hiển thị canvas2
         canvas1.gameObject.SetActive(false);
         canvas2.gameObject.SetActive(true);
     }

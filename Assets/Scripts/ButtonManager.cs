@@ -11,10 +11,12 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] private RawImage buttonImage;
     private int _itemId;
     private Sprite _buttonTexture;
+
     public int ItemId
     {
         set => _itemId = value;
     }
+    
     public Sprite ButtonTexture
     {
         set
@@ -23,6 +25,7 @@ public class ButtonManager : MonoBehaviour
             buttonImage.texture = _buttonTexture.texture;
         }
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +45,7 @@ public class ButtonManager : MonoBehaviour
             transform.DOScale(Vector3.one, 0.2f);
         }
     }
+
     void SelectObject()
     {
         DataHandler.Instance.SetFurniture(_itemId);
